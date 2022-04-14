@@ -20,6 +20,8 @@ The script `model_base.py` contains the code for all models trained and tested f
 
 In addition to the models, this script containes a `Runner` class with a training and and a testing function that can be used with all model classes.
 
+The model script also contains code in the bottom illustrating how the models can be trained and tested. More specific examples can be found in the demo scripts (see below).
+
 ## Data generation script
 The script `data_maker.py` contains functions to generate source signals, contexts and wrap the contexts into training and testing data for the `Runner` (see above).
 
