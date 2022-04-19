@@ -9,7 +9,6 @@ This repository contains:
 * utility scripts to helps with analysis and plotting
 
 ## Prerequisites
-You need to have `PyTorch` installed, as well as common python packages such as `NumPy` and `SciPy`.
 
 1. You need to install `pytorch`, follow the instructions on https://pytorch.org/
 2. You also need `numpy`, `scipy`, `scikit-learn`, `tensorboard`, `matplotlib`
