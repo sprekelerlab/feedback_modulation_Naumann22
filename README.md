@@ -10,10 +10,12 @@ This repository contains:
 
 ## Prerequisites
 
+The simulations were run in `python 3.7.6` on macOS, but also tested on Linux.
+
 1. You need to install `pytorch`, follow the instructions on https://pytorch.org/
 2. You also need `numpy`, `scipy`, `scikit-learn`, `tensorboard`, `matplotlib`
 
-The package versions used to run the simulations in the paper can be found in `package-versions.txt`.
+The package versions used to run the simulations in the paper can be found in `package-versions.txt`. 
 
 ## Model script
 The script `model_base.py` contains the code for all models trained and tested for the paper. Each model variant is a separate class.
