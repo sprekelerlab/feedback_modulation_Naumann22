@@ -3,10 +3,11 @@
 Here you can find the code for the main findings of the publication "Invariant neural subspaces maintained by feedback modulation" by LB Naumann, J Keijser and H Sprekeler (eLife, 2022).
 
 This repository contains:
-* a script containing all models and training/testing functions
+* a script containing all model classes and training/testing functions
 * a script to generate data (sources and contexts)
 * 3 demo scripts to reproduce the main findings from the paper
 * utility scripts to helps with analysis and plotting
+* a directory with pretrained models
 
 ## Prerequisites
 
