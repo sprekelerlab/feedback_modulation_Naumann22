@@ -11,6 +11,11 @@ This repository contains:
 ## Prerequisites
 You need to have `PyTorch` installed, as well as common python packages such as `NumPy` and `SciPy`.
 
+1. You need to install `pytorch`, follow the instructions on https://pytorch.org/
+2. You also need `numpy`, `scipy`, `scikit-learn`, `tensorboard`, `matplotlib`
+
+The package versions used to run the simulations in the paper can be found in `package-versions.txt`.
+
 ## Model script
 The script `model_base.py` contains the code for all models trained and tested for the paper. Each model variant is a separate class.
 `UnmixingModel` is the parent class. The model variants are:
@@ -29,7 +34,7 @@ The script `data_maker.py` contains functions to generate source signals, contex
 
 To reproduce the core findings of the paper, you can run the demo scripts. The demo scripts can be used to train and/or load and test the models.
 **WARNING:** Training a model can take several hours!
-The contain flags `LOAD_MODEL` and `SAVE_MODEL` that can be used to save and load trained models.
+The demo scripts contain flags `LOAD_MODEL` and `SAVE_MODEL` that can be used to save and load trained models.
 It is highly recommended to first train a model, save it and then load the results from the saved model to play with it and plot results.
 The models should be trained for at least 3000 batches, but results get better for 5000-10000 batches.
 You can change the numner of batches using the variable `n_batch`.
